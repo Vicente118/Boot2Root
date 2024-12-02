@@ -52,9 +52,13 @@ dirb https://192.168.56.101 /usr/share/seclists/Discovery/Web-Content/common.txt
 	=> We find her mail : laurie@borntosec.net 
 	
 	https://192.168.56.101/webmail => use email found above and password to connect to the webmail and try to find something interesting
-	"Mail received : Hey Laurie,
-
+	Mail received : 
+	"Hey Laurie,
 	You cant connect to the databases now. Use root/Fg-'kKXBj87E:aJ$
-
 	Best regards."
+
+
+	https://192.168.56.101/phpmyadmin => use user/password from email above to connect this website
+	USER : root, lmezard, qudevide, wandre, thor, zaz
+
 
