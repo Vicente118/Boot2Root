@@ -46,7 +46,9 @@ dirb https://192.168.56.101 /usr/share/seclists/Discovery/Web-Content/common.txt
 ->https://192.168.56.101/phpmyadmin/
 ->https://192.168.56.101/webmail/
     
-	http://192.168.56.101/forum => new user lmezard made a post about login problem
+	https://192.168.56.101/forum => new user lmezard made a post about login problem
 	password of lmezard : !q\]Ej?*5K5cy*AJ
 	=> Login on the forum with this user/password
 	=> We find her mail : laurie@borntosec.net 
+	
+	https://192.168.56.101/webmail => use email found above and password to connect to the webmail and try to find something interesting
